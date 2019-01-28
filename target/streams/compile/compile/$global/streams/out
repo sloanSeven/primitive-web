@@ -1,0 +1,3 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/steve/git/primitive-web/conf/routes:7:1: value reservations is not a member of controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /reservations               controllers.HomeController.reservations[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
