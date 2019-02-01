@@ -10,10 +10,10 @@ scalaVersion := "2.12.8"
 libraryDependencies ++= Seq(
 
 guice,
-
-"org.apache.kafka" %% "kafka" % "0.10.1.1",
-
 // https://mvnrepository.com/artifact/com.google.guava/guava
-"com.google.guava" % "guava" % "19.0"
+"com.google.guava" % "guava" % "19.0",
 
 )
+// https://mvnrepository.com/artifact/org.apache.kafka/kafka-streams
+libraryDependencies += "org.apache.kafka" % "kafka-streams" % "1.0.0"
+

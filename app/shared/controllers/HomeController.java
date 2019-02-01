@@ -1,11 +1,10 @@
-package controllers;
+package shared.controllers;
 
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 
 import com.google.common.hash.Hashing;
 
-import consumers.MeetupConsumer;
 import play.mvc.Controller;
 import play.mvc.Result;
 
@@ -13,7 +12,7 @@ import play.mvc.Result;
  * This controller contains an action to handle HTTP requests to the
  * application's home page.
  */
-public class MeetupController extends Controller {
+public class HomeController extends Controller {
 
 	/**
 	 * An action that renders an HTML page with a welcome message. The configuration
@@ -22,16 +21,12 @@ public class MeetupController extends Controller {
 	 * <code>/</code>.
 	 */
 
-	MeetupConsumer meetupConsumer = new MeetupConsumer();
 	HashMap<String, String> map = new HashMap<>();
 
 	public Result index() {
 		return ok(views.html.index.render());
 	}
 
-	public Result reservations() {
-		return ok("tbd"); //meetupConsumer.runConsumer() views.html.index.render()
-	}
 
 	public Result store(String message) {
 		String sha256hex = Hashing.sha256().hashString(message, StandardCharsets.UTF_8).toString();

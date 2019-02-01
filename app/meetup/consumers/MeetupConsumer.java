@@ -1,4 +1,4 @@
-package consumers;
+package meetup.consumers;
 
 import java.util.ArrayList;
 import java.util.Collections;

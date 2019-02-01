@@ -4,7 +4,7 @@
 		module="primitive-web_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20190128044600"
+		publication="20190129165701"
 	>
 		<description>
 		primitive-web
@@ -53,7 +53,7 @@
 		<dependency org="com.typesafe.play" name="play-logback_2.12" rev="2.6.21" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-akka-http-server_2.12" rev="2.6.21" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-guice_2.12" rev="2.6.21" conf="compile->default(compile)"/>
-		<dependency org="org.apache.kafka" name="kafka_2.12" rev="0.10.1.1" conf="compile->default(compile)"/>
 		<dependency org="com.google.guava" name="guava" rev="19.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.kafka" name="kafka-streams" rev="1.0.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

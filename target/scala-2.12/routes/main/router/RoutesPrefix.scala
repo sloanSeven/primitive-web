@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/steve/git/primitive-web/conf/routes
-// @DATE:Mon Jan 28 04:47:11 EST 2019
+// @DATE:Tue Jan 29 13:13:03 EST 2019
 
 
 package router {

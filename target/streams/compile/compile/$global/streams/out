@@ -1,3 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/steve/git/primitive-web/conf/routes:7:1: value reservations is not a member of controllers.HomeController[0m
-[0m[[0m[31merror[0m] [0m[0mGET     /reservations               controllers.HomeController.reservations[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steve/git/primitive-web/app/paxos/controllers/PaxosController.java:55:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method read(java.lang.String)[0m
+[0m[[0m[31merror[0m] [0m[0m  location: variable kafka of type paxos.consumers.PaxosKafa[0m
+[0m[[0m[31merror[0m] [0m[0m		final String message = kafka.read(sha256hex);[0m
